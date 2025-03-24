@@ -7,7 +7,7 @@
   "files": [
     {
       "path": "registry/button/button.tsx",
-      "content": "export function Button(title: string = \"hello world\") {\n  return <h1 className=\"text-2xl font-bold\">{title}</h1>;\n}\n",
+      "content": "interface ButtonProps {\n  title?: string;\n}\n\nexport function Button({ title = \"hello world\" }: ButtonProps) {\n  return <button className=\"btn skin-tertiary interactive\">{title}</button>;\n}\n",
       "type": "registry:ui"
     }
   ]

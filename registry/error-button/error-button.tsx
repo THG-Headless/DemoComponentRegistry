@@ -3,5 +3,5 @@ interface ButtonProps {
 }
 
 export function Button({ title = "hello world" }: ButtonProps) {
-  return <button className="btn skin-tertiary interactive">{title}</button>;
+  return <button className="btn skin-error interactive">{title}</button>;
 }

@@ -27,6 +27,18 @@
           "type": "registry:component"
         }
       ]
+    },
+    {
+      "name": "error-button",
+      "type": "registry:ui",
+      "title": "Error button",
+      "description": "A button error component",
+      "files": [
+        {
+          "path": "registry/error-button/error-button.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }

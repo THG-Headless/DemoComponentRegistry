@@ -12,13 +12,13 @@ export function Card({
   buttonText = "Click Me",
 }: CardProps) {
   return (
-    <div className="rounded-lg border p-4 shadow-sm">
+    <div className="skin-secondary rounded-lg  p-4 shadow-sm">
       <div className="mb-4">
         <h2 className="text-xl font-semibold">{title}</h2>
-        <p className="mt-2 text-gray-600">{content}</p>
+        <p className="mt-2">{content}</p>
       </div>
       <div className="mt-4">
-        <HelloWorld title={buttonText} />
+        <Button title={buttonText} />
       </div>
     </div>
   );
