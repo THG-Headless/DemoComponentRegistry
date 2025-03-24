@@ -1,16 +1,29 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "acme",
+  "name": "Altitude",
   "homepage": "https://acme.com",
   "items": [
     {
       "name": "button",
-      "type": "registry:component",
+      "type": "registry:ui",
       "title": "Button",
       "description": "A simple button component",
       "files": [
         {
           "path": "registry/button/button.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "card",
+      "type": "registry:component",
+      "title": "Card",
+      "description": "A simple card component",
+      "registryDependencies": ["button"],
+      "files": [
+        {
+          "path": "registry/card/card.tsx",
           "type": "registry:component"
         }
       ]

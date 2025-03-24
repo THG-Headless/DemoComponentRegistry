@@ -1,14 +1,14 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "button",
-  "type": "registry:component",
+  "type": "registry:ui",
   "title": "Button",
   "description": "A simple button component",
   "files": [
     {
       "path": "registry/button/button.tsx",
-      "content": "export function HelloWorld() {\n  return <h1 className=\"text-2xl font-bold\">Hello World</h1>;\n}\n",
-      "type": "registry:component"
+      "content": "export function Button(title: string = \"hello world\") {\n  return <h1 className=\"text-2xl font-bold\">{title}</h1>;\n}\n",
+      "type": "registry:ui"
     }
   ]
 }
